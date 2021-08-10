@@ -5,7 +5,7 @@ from flask_admin.contrib.sqla import ModelView
 import sqlalchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root@localhost/trial"
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://K4YZRVWKFu:HeHmhsGChI@remotemysql.com/K4YZRVWKFu"
 app.config['SECRET_KEY'] = 'thisisthesecretkeyforthisproject'
 db = SQLAlchemy(app)
 admin = Admin(app)
